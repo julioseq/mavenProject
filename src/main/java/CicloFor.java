@@ -1,3 +1,5 @@
+import Modelos.Prueba;
+
 import java.util.LinkedList;
 import java.util.List;
 

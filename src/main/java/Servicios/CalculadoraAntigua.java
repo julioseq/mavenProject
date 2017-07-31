@@ -22,4 +22,37 @@ public class CalculadoraAntigua  implements AdministradorDeOperaciones{
         return a*b;
 
     }
+
+    @Override
+    public double seno(double a) {
+        return 0;
+    }
+
+    @Override
+    public double coseno(double a) {
+        return 0;
+    }
+
+    @Override
+    public double tangente(double a) {
+        return 0;
+    }
+
+    @Override
+    public double cotangente(double a) {
+        return 0;
+    }
+
+    @Override
+    public int division(int a, int b) {
+        int o=0;
+        if(b==0){
+            o=-1;
+        }
+        else{
+
+            o=a/b;
+        }
+        return o;
+    }
 }

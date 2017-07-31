@@ -13,5 +13,8 @@ public class ProbarImplementacion {
         System.out.println("Sus pesos son: "+resultado2);
         int resultado3=gestinadorDinero.pesosLibras(numero);
         System.out.println("Sus libras son: "+resultado3);
+
+
+        System.out.println( "suma fue igual a " +resultado );
     }
 }
