@@ -42,7 +42,7 @@ public class OperadoresAritmeticos {
           System.out.println("Eres adulto mayor");
       }
 
-      byte Juan=46,pedro=15;
+      byte Juan=16,pedro=25;
       if (Juan>45 || pedro>25){ //operador logico o(se cumple el uno o el otro condicional
           System.out.println("pasaste");
       }else {
