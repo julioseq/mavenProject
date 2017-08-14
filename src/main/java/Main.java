@@ -29,5 +29,13 @@ public class Main {
 
         System.out.println("El nombre del objeto2 luego de ser cambiado es: "+objeto2.nombre);
         System.out.println("El saludo del objeto2 luego de ser cambiado el nombre es: "+objeto2.saludar());
+
+
+        System.out.println("Los puntos de vida del objeto2 son: "+objeto2.vida);
+        objeto2.enfermar(20);
+        System.out.println("Los puntos de vida del objeto 2 una vez enfermado son: "+objeto2.vida);
+        objeto2.comer(30);
+        System.out.println("Los puntos de vida del objeto 2 despues de comer son: "+objeto2.vida);
+        System.out.println("Los puntos de vida del objeto1 son: "+objeto1.vida);
     }
 }

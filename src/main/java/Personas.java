@@ -7,6 +7,7 @@ public class Personas {
     byte numBrazos;
     byte numPiernas;
     String colorOjos;
+    byte vida;
 
     public Personas (){
         this.nombre="Julio";
@@ -14,6 +15,7 @@ public class Personas {
         this.numPiernas=2;
         this.colorOjos="cafe";
         this.edad=36;
+        this.vida=100;
     }
 
     public Personas(String nombre, byte edad,byte numBrazos,byte numPiernas,String colorOjos){
@@ -22,6 +24,7 @@ public class Personas {
         this.numBrazos=numBrazos;
         this.numPiernas=numPiernas;
         this.colorOjos=colorOjos;
+        this.vida=100;
     }
 
     public String saludar(){
@@ -31,4 +34,13 @@ public class Personas {
     public void cambiarNombre(String nombre){
         this.nombre=nombre;
     }
+
+
+    public void enfermar(int putosVida) {
+        this.vida -= putosVida;
+    }
+
+public  void comer(int puntosVidaC){
+        this.vida+=puntosVidaC;
+}
 }
