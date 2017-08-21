@@ -1,13 +1,16 @@
+package CursoJV.Modelos;
+
 /**
  * Created by Julio Cesar on 11/08/2017.
  */
 public class Personas {
-    String nombre;
-    byte edad;
-    byte numBrazos;
-    byte numPiernas;
-    String colorOjos;
-    byte vida;
+   public String nombre;
+    public byte edad;
+   public byte numBrazos;
+   public byte numPiernas;
+    public String colorOjos;
+   public byte vida;
+
 
     public Personas (){
         this.nombre="Julio";
