@@ -1,4 +1,4 @@
-package CursoJV.Clase3;
+package CursoJV.Herencia;
 
 /**
  * Created by Julio Cesar on 23/08/2017.
